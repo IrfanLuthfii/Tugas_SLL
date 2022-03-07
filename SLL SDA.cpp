@@ -58,10 +58,10 @@ void List::insert()
     temp->next=NULL;
     cout<<" =     Masukkan sebagai    =";
     cout<<"----------------------------";
-	cout<<" = 1:Urutan Pertama        =";
-	cout<<" = 2:Urutan Terakhir       =";
-	cout<<" = 3:Antara Awal dan Akhir =";
-	cout<<"----------------------------";
+    cout<<" = 1:Urutan Pertama        =";
+    cout<<" = 2:Urutan Terakhir       =";
+    cout<<" = 3:Antara Awal dan Akhir =";
+    cout<<"----------------------------";
     cout<<" =  Masukkan pilihan anda: =";
     cin>>ch;
     switch(ch)
@@ -100,10 +100,10 @@ void List::delet()
     int count=1,pos,ch;
     cout<<" =            Hapus     		= ";
     cout<<"-------------------------------";
-	cout<<" = 1:Urutan Pertama     		= ";
-	cout<<" = 2:Urutan Terakhir 		= ";
-	cout<<" = 3:Antara Awal dan Akhir 	= ";
-	cout<<"-------------------------------";
+    cout<<" = 1:Urutan Pertama     		= ";
+    cout<<" = 2:Urutan Terakhir 		= ";
+    cout<<" = 3:Antara Awal dan Akhir 	= ";
+    cout<<"-------------------------------";
     cout<<" =   Masukkan pilihan anda: 	= ";
     cin>>ch;
     switch(ch)
@@ -206,12 +206,12 @@ int main()
         cout<<" ============================"<<endl;
         cout<<" =   PROGRAM LINKED LIST    ="<<endl;
         cout<<" ============================"<<endl;
-        cout<<" = 1. CREATE                	="<<endl;
-        cout<<" = 2. INSERT          		="<<endl;
-        cout<<" = 3. DELETE          		="<<endl;
-        cout<<" = 4. SEARCH                 ="<<endl;
-        cout<<" = 5. DISPLAY  				="<<endl;
-		cout<<" = 6. EXIT              		="<<endl;
+        cout<<" = 1. CREATE                ="<<endl;
+        cout<<" = 2. INSERT          	   ="<<endl;
+        cout<<" = 3. DELETE          	   ="<<endl;
+        cout<<" = 4. SEARCH                ="<<endl;
+        cout<<" = 5. DISPLAY  		   ="<<endl;
+	cout<<" = 6. EXIT              	   ="<<endl;
         cout<<" ============================="<<endl;
         cout<<" Masukan Pilihan : ";
         cin>>ch;
