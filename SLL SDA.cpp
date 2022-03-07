@@ -98,10 +98,10 @@ void List::delet()
 {
     Node *prev=NULL,*cur=first;
     int count=1,pos,ch;
-    cout<<" =            Hapus     		= ";
+    cout<<" =            Hapus     	= ";
     cout<<"-------------------------------";
-    cout<<" = 1:Urutan Pertama     		= ";
-    cout<<" = 2:Urutan Terakhir 		= ";
+    cout<<" = 1:Urutan Pertama     	= ";
+    cout<<" = 2:Urutan Terakhir 	= ";
     cout<<" = 3:Antara Awal dan Akhir 	= ";
     cout<<"-------------------------------";
     cout<<" =   Masukkan pilihan anda: 	= ";
